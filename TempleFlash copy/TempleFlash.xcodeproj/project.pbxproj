@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8101D6D1BE19086001CF86A /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8101D6C1BE19086001CF86A /* Temple.swift */; settings = {ASSET_TAGS = (); }; };
+		D8101D6F1BE19095001CF86A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8101D6E1BE19095001CF86A /* GameState.swift */; settings = {ASSET_TAGS = (); }; };
+		D8101D751BE3076E001CF86A /* TempleCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8101D741BE3076E001CF86A /* TempleCardViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D8101D771BE30A13001CF86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8101D761BE30A13001CF86A /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D84D5B281BE30E370059F507 /* TempleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D5B271BE30E370059F507 /* TempleCardView.swift */; settings = {ASSET_TAGS = (); }; };
+		D84D5B2A1BE30F020059F507 /* TempleCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D5B291BE30F020059F507 /* TempleCardCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D8521E501BD304EE00F9ABE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8521E4F1BD304EE00F9ABE2 /* AppDelegate.swift */; };
+		D8521E571BD304EE00F9ABE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8521E561BD304EE00F9ABE2 /* Assets.xcassets */; };
+		D8521E651BD304EF00F9ABE2 /* TempleFlashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8521E641BD304EF00F9ABE2 /* TempleFlashTests.swift */; };
+		D8521E701BD304EF00F9ABE2 /* TempleFlashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8521E6F1BD304EF00F9ABE2 /* TempleFlashUITests.swift */; };
+		D8521E881BD30ECD00F9ABE2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8521E871BD30ECD00F9ABE2 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D8564F631BEC03A90083A511 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8564F621BEC03A90083A511 /* ding.mp3 */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8521E611BD304EE00F9ABE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8521E441BD304EE00F9ABE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8521E4B1BD304EE00F9ABE2;
+			remoteInfo = TempleFlash;
+		};
+		D8521E6C1BD304EF00F9ABE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8521E441BD304EE00F9ABE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8521E4B1BD304EE00F9ABE2;
+			remoteInfo = TempleFlash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8101D6C1BE19086001CF86A /* Temple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temple.swift; sourceTree = "<group>"; };
+		D8101D6E1BE19095001CF86A /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		D8101D741BE3076E001CF86A /* TempleCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleCardViewController.swift; sourceTree = "<group>"; };
+		D8101D761BE30A13001CF86A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D84D5B271BE30E370059F507 /* TempleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleCardView.swift; sourceTree = "<group>"; };
+		D84D5B291BE30F020059F507 /* TempleCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8521E4C1BD304EE00F9ABE2 /* TempleFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempleFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8521E4F1BD304EE00F9ABE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8521E561BD304EE00F9ABE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8521E5B1BD304EE00F9ABE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8521E601BD304EE00F9ABE2 /* TempleFlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleFlashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8521E641BD304EF00F9ABE2 /* TempleFlashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleFlashTests.swift; sourceTree = "<group>"; };
+		D8521E661BD304EF00F9ABE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8521E6B1BD304EF00F9ABE2 /* TempleFlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempleFlashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8521E6F1BD304EF00F9ABE2 /* TempleFlashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleFlashUITests.swift; sourceTree = "<group>"; };
+		D8521E711BD304EF00F9ABE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8521E871BD30ECD00F9ABE2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D8564F621BEC03A90083A511 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8521E491BD304EE00F9ABE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E5D1BD304EE00F9ABE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E681BD304EF00F9ABE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8521E431BD304EE00F9ABE2 = {
+			isa = PBXGroup;
+			children = (
+				D8521E4E1BD304EE00F9ABE2 /* TempleFlash */,
+				D8521E631BD304EF00F9ABE2 /* TempleFlashTests */,
+				D8521E6E1BD304EF00F9ABE2 /* TempleFlashUITests */,
+				D8521E4D1BD304EE00F9ABE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8521E4D1BD304EE00F9ABE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8521E4C1BD304EE00F9ABE2 /* TempleFlash.app */,
+				D8521E601BD304EE00F9ABE2 /* TempleFlashTests.xctest */,
+				D8521E6B1BD304EF00F9ABE2 /* TempleFlashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8521E4E1BD304EE00F9ABE2 /* TempleFlash */ = {
+			isa = PBXGroup;
+			children = (
+				D8521E7F1BD305E200F9ABE2 /* Controller */,
+				D8521E7E1BD305DD00F9ABE2 /* View */,
+				D8521E7D1BD305D500F9ABE2 /* Model */,
+				D8521E801BD3060F00F9ABE2 /* Supporting Files */,
+			);
+			path = TempleFlash;
+			sourceTree = "<group>";
+		};
+		D8521E631BD304EF00F9ABE2 /* TempleFlashTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8521E641BD304EF00F9ABE2 /* TempleFlashTests.swift */,
+				D8521E661BD304EF00F9ABE2 /* Info.plist */,
+			);
+			path = TempleFlashTests;
+			sourceTree = "<group>";
+		};
+		D8521E6E1BD304EF00F9ABE2 /* TempleFlashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8521E6F1BD304EF00F9ABE2 /* TempleFlashUITests.swift */,
+				D8521E711BD304EF00F9ABE2 /* Info.plist */,
+			);
+			path = TempleFlashUITests;
+			sourceTree = "<group>";
+		};
+		D8521E7D1BD305D500F9ABE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8101D6C1BE19086001CF86A /* Temple.swift */,
+				D8101D6E1BE19095001CF86A /* GameState.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D8521E7E1BD305DD00F9ABE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8101D761BE30A13001CF86A /* Main.storyboard */,
+				D84D5B271BE30E370059F507 /* TempleCardView.swift */,
+				D84D5B291BE30F020059F507 /* TempleCardCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D8521E7F1BD305E200F9ABE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8101D741BE3076E001CF86A /* TempleCardViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D8521E801BD3060F00F9ABE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8564F621BEC03A90083A511 /* ding.mp3 */,
+				D8521E871BD30ECD00F9ABE2 /* Launch Screen.storyboard */,
+				D8521E4F1BD304EE00F9ABE2 /* AppDelegate.swift */,
+				D8521E5B1BD304EE00F9ABE2 /* Info.plist */,
+				D8521E561BD304EE00F9ABE2 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8521E4B1BD304EE00F9ABE2 /* TempleFlash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8521E741BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlash" */;
+			buildPhases = (
+				D8521E481BD304EE00F9ABE2 /* Sources */,
+				D8521E491BD304EE00F9ABE2 /* Frameworks */,
+				D8521E4A1BD304EE00F9ABE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempleFlash;
+			productName = TempleFlash;
+			productReference = D8521E4C1BD304EE00F9ABE2 /* TempleFlash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8521E5F1BD304EE00F9ABE2 /* TempleFlashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8521E771BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlashTests" */;
+			buildPhases = (
+				D8521E5C1BD304EE00F9ABE2 /* Sources */,
+				D8521E5D1BD304EE00F9ABE2 /* Frameworks */,
+				D8521E5E1BD304EE00F9ABE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8521E621BD304EE00F9ABE2 /* PBXTargetDependency */,
+			);
+			name = TempleFlashTests;
+			productName = TempleFlashTests;
+			productReference = D8521E601BD304EE00F9ABE2 /* TempleFlashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8521E6A1BD304EF00F9ABE2 /* TempleFlashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8521E7A1BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlashUITests" */;
+			buildPhases = (
+				D8521E671BD304EF00F9ABE2 /* Sources */,
+				D8521E681BD304EF00F9ABE2 /* Frameworks */,
+				D8521E691BD304EF00F9ABE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8521E6D1BD304EF00F9ABE2 /* PBXTargetDependency */,
+			);
+			name = TempleFlashUITests;
+			productName = TempleFlashUITests;
+			productReference = D8521E6B1BD304EF00F9ABE2 /* TempleFlashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8521E441BD304EE00F9ABE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nathan Crowther";
+				TargetAttributes = {
+					D8521E4B1BD304EE00F9ABE2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2B74646C58;
+					};
+					D8521E5F1BD304EE00F9ABE2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D8521E4B1BD304EE00F9ABE2;
+					};
+					D8521E6A1BD304EF00F9ABE2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D8521E4B1BD304EE00F9ABE2;
+					};
+				};
+			};
+			buildConfigurationList = D8521E471BD304EE00F9ABE2 /* Build configuration list for PBXProject "TempleFlash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8521E431BD304EE00F9ABE2;
+			productRefGroup = D8521E4D1BD304EE00F9ABE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8521E4B1BD304EE00F9ABE2 /* TempleFlash */,
+				D8521E5F1BD304EE00F9ABE2 /* TempleFlashTests */,
+				D8521E6A1BD304EF00F9ABE2 /* TempleFlashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8521E4A1BD304EE00F9ABE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8101D771BE30A13001CF86A /* Main.storyboard in Resources */,
+				D8521E881BD30ECD00F9ABE2 /* Launch Screen.storyboard in Resources */,
+				D8564F631BEC03A90083A511 /* ding.mp3 in Resources */,
+				D8521E571BD304EE00F9ABE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E5E1BD304EE00F9ABE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E691BD304EF00F9ABE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8521E481BD304EE00F9ABE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8101D751BE3076E001CF86A /* TempleCardViewController.swift in Sources */,
+				D84D5B281BE30E370059F507 /* TempleCardView.swift in Sources */,
+				D8101D6D1BE19086001CF86A /* Temple.swift in Sources */,
+				D84D5B2A1BE30F020059F507 /* TempleCardCollectionViewCell.swift in Sources */,
+				D8521E501BD304EE00F9ABE2 /* AppDelegate.swift in Sources */,
+				D8101D6F1BE19095001CF86A /* GameState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E5C1BD304EE00F9ABE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8521E651BD304EF00F9ABE2 /* TempleFlashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8521E671BD304EF00F9ABE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8521E701BD304EF00F9ABE2 /* TempleFlashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8521E621BD304EE00F9ABE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8521E4B1BD304EE00F9ABE2 /* TempleFlash */;
+			targetProxy = D8521E611BD304EE00F9ABE2 /* PBXContainerItemProxy */;
+		};
+		D8521E6D1BD304EF00F9ABE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8521E4B1BD304EE00F9ABE2 /* TempleFlash */;
+			targetProxy = D8521E6C1BD304EF00F9ABE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8521E721BD304EF00F9ABE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8521E731BD304EF00F9ABE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8521E751BD304EF00F9ABE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TempleFlash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D8521E761BD304EF00F9ABE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TempleFlash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D8521E781BD304EF00F9ABE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempleFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempleFlash.app/TempleFlash";
+			};
+			name = Debug;
+		};
+		D8521E791BD304EF00F9ABE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TempleFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempleFlash.app/TempleFlash";
+			};
+			name = Release;
+		};
+		D8521E7B1BD304EF00F9ABE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempleFlashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempleFlash;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D8521E7C1BD304EF00F9ABE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TempleFlashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thecrownest.TempleFlashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempleFlash;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8521E471BD304EE00F9ABE2 /* Build configuration list for PBXProject "TempleFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8521E721BD304EF00F9ABE2 /* Debug */,
+				D8521E731BD304EF00F9ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8521E741BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8521E751BD304EF00F9ABE2 /* Debug */,
+				D8521E761BD304EF00F9ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8521E771BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8521E781BD304EF00F9ABE2 /* Debug */,
+				D8521E791BD304EF00F9ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8521E7A1BD304EF00F9ABE2 /* Build configuration list for PBXNativeTarget "TempleFlashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8521E7B1BD304EF00F9ABE2 /* Debug */,
+				D8521E7C1BD304EF00F9ABE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8521E441BD304EE00F9ABE2 /* Project object */;
+}
